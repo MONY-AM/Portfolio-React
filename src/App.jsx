@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <main className="bg-purple-700 min-h-screen">
+    <main className="bg-black text-white min-h-screen">
         <Hero />
         <About />
         <Skills />

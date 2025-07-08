@@ -15,7 +15,8 @@ export const About = () => {
         >
           <div
             className="h-[200px] sm:h-[300px] w-[300px] sm:w-[400px] lg:h-[300px] lg:w-[500px]
-             absolute transform z-0 right-8 md:right-36 sm:right-24 lg:right-24 lg:-mx-40 lg:pt-7 -top-2 lg:-mt-48 md:top-10 md:mr-16 mr-[55px]"
+             absolute transform z-0 right-8 md:right-36 sm:right-24 lg:right-24 lg:-mx-40 lg:pt-7
+             -top-2 lg:-mt-48 md:top-10 md:mr-16 mr-[10px] pr-9"
           >
             <img
               src={mony}
