@@ -16,8 +16,9 @@ function App() {
     });
   }, []);
 
+  //[0D1117,1E1E2F,000000,FFFFFF ,F0EBF8 ,FAF3E0 ,00D1B2,6C63FF,FF6B6B,1E1E2F ]
   return (
-    <main className="bg-black text-white min-h-screen">
+    <main className="bg-[#0D1117] text-white min-h-screen">
         <Hero />
         <About />
         <Skills />

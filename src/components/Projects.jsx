@@ -1,8 +1,9 @@
-import React from "react";
-import HTML from "../assets/html.png";
+import { Link } from "react-router-dom";
 import CSS from "../assets/css.png";
+import React from "../assets/reactjs.png";
 
 const ProjectCard = ({ image, title, description, link }) => {
+  
   return (
     <article className="relative max-w-sm bg-gray-800 rounded overflow-hidden shadow-lg group">
       <div
@@ -23,7 +24,7 @@ const ProjectCard = ({ image, title, description, link }) => {
             className="absolute h-[202px] inset-0 flex items-center justify-center bg-purple-800 bg-opacity-50 opacity-0
                         group-hover:opacity-100 transition-opacity duration-300"
           >
-            <button className="bg-white font-meduim text-black py-2 px-4 rounded-3xl shadow hover:text-white hover:bg-[#2879d5] ">
+            <button target='_blank' rel="noopener noreferrer" className="bg-white font-meduim text-black py-2 px-4 rounded-3xl shadow hover:text-white hover:bg-[#2879d5] ">
               Live Preview
             </button>
           </a>
@@ -41,14 +42,16 @@ const ProjectCard = ({ image, title, description, link }) => {
 export const Projects = () => {
   const listProjects = [
     {
-      image: HTML,
+      image: React,
       title: "Portfolio Website",
       description: "A personal portfolio website to showcase my skills and projects.",
+      link: "https://vercel-deployment-test-roan.vercel.app/",
     },
     {
       image: CSS,
       title: "E-commerce Website",
       description: "An e-commerce website built with modern web technologies.",
+      link: "https://vercel-github-test-five.vercel.app/",
     },
   ];
   return (
@@ -78,6 +81,7 @@ export const Projects = () => {
             image={project.image}
             title={project.title}
             description={project.description}
+            link={project.link}
           />
         ))}
       </section>

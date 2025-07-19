@@ -1,7 +1,10 @@
 import MONY from "../assets/monyam.jpg";
 export const Contact = () => {
   return (
-    <section id="contact" className="grid grid-cols-1 sm:grid-cols-2 sm:pr-20 sm:gap-3 md:grid-cols-2 lg:grid-cols-2 w-full h-[900px] p-4">
+    <section
+      id="contact"
+      className="grid grid-cols-1 sm:grid-cols-2 sm:pr-20 sm:gap-3 md:grid-cols-2 lg:grid-cols-2 w-full h-[900px] p-4"
+    >
       <article
         data-aos="fade-down"
         data-aos-delay="500"
@@ -16,14 +19,17 @@ export const Contact = () => {
       <article
         data-aos="fade-up"
         data-aos-delay="500"
-        className=" flex flex-col justify-center items-start "
+        className=" flex flex-col justify-center items-center "
       >
         <header>
           <h1 className=" font-bold text-white text-3xl md:text-4xl lg:text-4xl">
             Contact Me
           </h1>
         </header>
-        <form action="" className="flex flex-col items-start gap-2 w-full">
+        <form
+          action=""
+          className="flex flex-col gap-2 bg-[#6C63FF] p-4 w-100% rounded-lg mt-1"
+        >
           <section className="p-1 w-full lg:w-[500px] md:w-[400px] sm:w-[300px]">
             <label htmlFor="username" className="text-gray-300">
               Your Name
@@ -57,7 +63,7 @@ export const Contact = () => {
               type="text"
               name="subject"
               id="subject"
-              className="rounded p-1 mt-1 w-full"
+              className="rounded p-1 mt-1 w-full text-black"
               placeholder="Subject"
             />{" "}
             <br />
@@ -69,7 +75,7 @@ export const Contact = () => {
               type="text"
               name="description"
               id="description"
-              className="rounded mt-1 resize-none w-full h-[200px] px-1 pb-16"
+              className="rounded mt-1 resize-none w-full h-[200px] px-1 pb-16 text-black"
               placeholder="Description"
             ></textarea>
           </section>

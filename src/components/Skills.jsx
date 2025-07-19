@@ -5,7 +5,8 @@ import JavaScript from "../assets/javascript.png";
 import PHP from "../assets/php.png";
 import Laravel from "../assets/laravel.png";
 import Reactjs from "../assets/reactjs.png";
-import Tailwindcss from "../assets/tailwindcss.png";
+import Tailwind from "../assets/tailwind.png";
+import Bootstrap from "../assets/bootstrap.png";
 
 export const Skills = () => {
   const skillsData = [
@@ -47,10 +48,16 @@ export const Skills = () => {
     },
     {
       id: 7,
-      image: Tailwindcss,
+      image: Tailwind,
       title: "Tailwindcss",
       description: "I have a strong understanding of Tailwind CSS and its utility-first approach. I can create responsive and visually appealing designs using Tailwind CSS. I am familiar with Tailwind's configuration and customization options.",
     },
+    {
+      id: 8,
+      image: Bootstrap,
+      title: "Bootstrap",
+      description: "I have experience with Bootstrap, a popular CSS framework. I can create responsive and mobile-first web applications using Bootstrap's grid system and components.",
+    }
   ];
 
   const SkillBox = ({ image, title, description }) => (
@@ -67,50 +74,12 @@ export const Skills = () => {
     </article>
   );
   return (
-    // <div>
-    //   <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 flex flex-col text-center justify-center text-white">
-    //     Skills
-    //   </h1>
-    //   <div className="text-center p-10 gap-24 m-1 grid grid-cols-6 mt-5">
-    //     <div className="">
-    //       <img src={HTML} alt="HTML" className=" w-40 h-40 rounded-full" />
-    //     </div>
-    //     <div className="">
-    //       <img src={CSS} alt="CSS" className="rounded-full" />
-    //     </div>
-    //     <div className="">
-    //       <img src={JavaScript} alt="JavaScript" className="rounded-full" />
-    //     </div>
-    //     <div className="">
-    //       <img src={PHP} alt="PHP" className="rounded-full" />
-    //     </div>
-    //     <div className="">
-    //       <img src={Laravel} alt="Laravel" className="rounded-full" />
-    //     </div>
-    //     <div className="">
-    //       <img src={Reactjs} alt="Reactjs" className="rounded-full" />
-    //     </div>
-    //     <div className="">
-    //       <img src={Tailwindcss} alt="tailwindcss" className="rounded-full" />
-    //     </div>
-    //     <div className="">
-    //       <img
-    //         src="{}"
-    //         alt="tailwindcss"
-    //         className="rounded-full"
-    //       />
-    //     </div>
-    //   </div>
-    // </div>
-    <section id='skills' className=" relative min-h-screen overflow-hidden flex flex-col items-center justify-center text-white px-4 py-10">
-      <div
-        className=" absolute z-0 w-72 h-72 sm:w-96 sm:h-44 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 top-10 sm:top-28
-      left-1/2 transform -translate-x-1/2"
-      ></div>
+    <section id='skills' className="relative overflow-hidden min-h-screen flex flex-col items-center justify-center text-white px-4 py-10">
+      
       <div
         data-aos="fade-up"
         data-aos-delay="300"
-        className="relative z-20 text-center space-y-6 sm:space-y-10"
+        className="z-10 text-center space-y-6 sm:space-y-10"
       >
         <header>
           <h1 className="text-3xl sm:text-4xl font-bold lg:text-4xl">
