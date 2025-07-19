@@ -3,7 +3,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="grid grid-cols-1 sm:grid-cols-2 sm:pr-20 sm:gap-3 md:grid-cols-2 lg:grid-cols-2 w-full h-[900px] p-4"
+      className="w-full h-auto min-h-[900px] grid grid-cols-1 lg:grid-cols-2 p-4 place-items-center gap-4"
     >
       <article
         data-aos="fade-down"
@@ -19,7 +19,7 @@ export const Contact = () => {
       <article
         data-aos="fade-up"
         data-aos-delay="500"
-        className=" flex flex-col justify-center items-center "
+        className=" flex flex-col justify-center items-center w-full"
       >
         <header>
           <h1 className=" font-bold text-white text-3xl md:text-4xl lg:text-4xl">

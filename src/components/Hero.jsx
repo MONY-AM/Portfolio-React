@@ -6,15 +6,15 @@ import instagram from "../assets/instagram.png";
 import telegram from "../assets/telegram.png";
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden min-h[550px] sm:min-h[600px] flex flex-col items-center">
+    <div className="relative overflow-hidden w-full h-auto min-h-[900px] flex flex-col md:items-start sm:items-start sm:justify-start md:justify-start">
       <Navbar />
       <main
         id="home"
-        className="flex flex-col md:flex-row items-center justify-center w-full px-4
-      md:px-52 pb-4 md:pb-24 md:pt-32 pt-24 mt-14 md:mt-0 z-10 sm:pt-32"
+        className="flex flex-col md:flex-col items-center md:items-start md:justify-center w-full h-auto px-4
+      z-10 text-white pt-20 md:pt-32 m-10"
       >
         <section
-          className="flex-1 mr-28 md:text-left mt-10 md:mt-0 relative"
+          className="flex-1 mr-28 md:text-left mt-10 md:mt-0 relative md:justify-start items-center md:items-start "
           data-aos="fade-up"
           data-aos-delay="500"
         >
@@ -23,7 +23,7 @@ export default function Hero() {
               Hi, I'm ROTHMONY
             </h1>
             <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-[#c744ec] md:text-[#c744ec] mb-2">
-              I'm currently graduated with a degree in Computer Science from RUPP.
+              I'm currently graduated with a degree in Computer Science at RUPP.
             </h2>
           </header>
           <p className="sm:ml-3 md:ml-0 text-base sm:text-lg md:text-lg text-gray-200 mb-6">
