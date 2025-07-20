@@ -37,7 +37,7 @@ export default function Hero() {
             <a href="https://github.com/rothmony" target="_blank" rel="noopener noreferrer">
               <img src={github} alt="github" className="w-9 h-9 hover:scale-[1.5] transition-transform duration-200" />
             </a>
-            <a href="https://facebook.com/rothmony" target="_blank" rel="noopener noreferrer">
+            <a href="https://facebook.com/#" target="_blank" rel="noopener noreferrer">
               <img src={facebook} alt="facebook" className="w-11 h-11 hover:scale-[1.5] transition-transform duration-200" />
             </a>
             <a href="https://instagram.com/rothmony" target="_blank" rel="noopener noreferrer">
