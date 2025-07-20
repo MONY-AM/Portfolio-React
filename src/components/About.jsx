@@ -1,11 +1,10 @@
-import React from "react";
 import mony from "../assets/ammony.jpg";
 
 export const About = () => {
   return (
     <section
       id="about"
-      className="w-full h-auto min-h-[900px] overflow-hidden grid grid-cols-1 lg:grid-cols-2 items-center justify-center text-white place-items-center p-32"
+      className="w-full h-auto overflow-hidden grid grid-cols-1 lg:grid-cols-2 items-center justify-center text-white place-items-center p-4 mb-10"
     >
       <article
         data-aos="fade-right"

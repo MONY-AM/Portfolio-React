@@ -6,7 +6,7 @@ import instagram from "../assets/instagram.png";
 import telegram from "../assets/telegram.png";
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden w-full h-auto min-h-[900px] flex flex-col md:items-start sm:items-start sm:justify-start md:justify-start">
+    <div className="relative overflow-hidden w-full h-auto min-h-[700px] flex flex-col md:items-start sm:items-start sm:justify-start md:justify-start">
       <Navbar />
       <main
         id="home"
