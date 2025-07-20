@@ -39,7 +39,7 @@ export const Contact = () => {
               type="text"
               name="username"
               id="username"
-              className="rounded p-1 mt-1 w-full"
+              className="rounded p-1 mt-1 w-full text-black"
               placeholder="Your name"
             />{" "}
             <br />
@@ -51,7 +51,7 @@ export const Contact = () => {
               type="text"
               name="email"
               id="email"
-              className="rounded p-1 mt-1 w-full"
+              className="rounded p-1 mt-1 w-full text-black"
               placeholder="Your email"
             />{" "}
             <br />
